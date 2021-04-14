@@ -1,1 +1,6 @@
-# -py-boto-docker
+# py-boto-docker
+
+Image for use with Bitbucket pipeline for ECR/AWS Operations
+Contains boto3 + docker (py)
+
+
