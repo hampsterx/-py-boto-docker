@@ -1,9 +1,9 @@
 # source: https://bitbucket.org/atlassian/aws-ecr-push-image/src/master/Dockerfile
 
-FROM python:3.7-slim
+FROM python:3.9-slim
 
 RUN apt-get update \
-    && apt-get install --no-install-recommends -y docker=1.5-2 \
+    && apt-get install --no-install-recommends -y docker \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
